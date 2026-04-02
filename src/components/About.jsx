@@ -20,14 +20,14 @@ export default function About() {
               <div className="flex flex-col gap-4">
                 <div className="gallery-item rounded-2xl overflow-hidden shadow-xl aspect-[3/4]">
                   <img
-                    src="/images/venue-night.jpeg"
+                    src="/images/venue2.jpeg"
                     alt="Quinta de Anza de noche - montaje elegante"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="gallery-item rounded-2xl overflow-hidden shadow-xl aspect-square">
                   <img
-                    src="/images/event-decor.jpeg"
+                    src="/images/foto3.0.jpeg"
                     alt="Decoración con luces neon y esferas doradas en Quinta de Anza"
                     className="w-full h-full object-cover"
                   />
