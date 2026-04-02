@@ -27,7 +27,7 @@ export default function About() {
                 </div>
                 <div className="gallery-item rounded-2xl overflow-hidden shadow-xl aspect-square">
                   <img
-                    src="/images/foto3.0.jpeg"
+                    src="/images/event-decor.jpeg"
                     alt="Decoración con luces neon y esferas doradas en Quinta de Anza"
                     className="w-full h-full object-cover"
                   />
