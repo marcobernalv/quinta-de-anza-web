@@ -105,7 +105,7 @@ export default function Hero() {
           <div className="hidden relative flex-shrink-0">
             <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden border-2 border-[#b8964a]/60 shadow-2xl gallery-item">
               <img
-                src="/images/event-decor.jpeg"
+                src="/images/foto1.0.jpeg"
                 alt="Decoración de evento en Quinta de Anza Hermosillo"
                 className="w-full h-full object-cover"
               />
