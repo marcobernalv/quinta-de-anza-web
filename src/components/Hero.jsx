@@ -4,7 +4,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/public/images/venue2.jpeg"
+          src="/images/venue2.jpeg"
           alt="Quinta de Anza - Jardín de eventos en Hermosillo"
           className="w-full h-full object-cover object-center"
         />
@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Logo */}
         <img
-          src="/public/images/logo.jpeg"
+          src="/images/logo.jpeg"
           alt="QA Logo"
           className="w-24 h-24 object-cover rounded-full border-2 border-[#b8964a] mx-auto mb-6 shadow-2xl"
         />
