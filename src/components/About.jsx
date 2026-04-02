@@ -36,7 +36,7 @@ export default function About() {
               <div className="flex flex-col gap-4 pt-8">
                 <div className="gallery-item rounded-2xl overflow-hidden shadow-xl aspect-square">
                   <img
-                    src="/images/venue-day.jpeg"
+                    src="/images/venue2.jpeg"
                     alt="Quinta de Anza de día - jardín y arcos coloniales"
                     className="w-full h-full object-cover"
                   />
