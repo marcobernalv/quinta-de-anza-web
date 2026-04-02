@@ -20,7 +20,7 @@ export default function About() {
               <div className="flex flex-col gap-4">
                 <div className="gallery-item rounded-2xl overflow-hidden shadow-xl aspect-[3/4]">
                   <img
-                    src="/public/images/venue2.jpeg"
+                    src="/images/venue2.jpeg"
                     alt="Quinta de Anza de noche - montaje elegante"
                     className="w-full h-full object-cover"
                   />
