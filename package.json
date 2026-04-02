@@ -1,0 +1,18 @@
+{
+  "name": "quinta-de-anza",
+  "version": "1.0.0",
+  "description": "Sitio web oficial de Quinta de Anza - Jardín de eventos en Hermosillo, Sonora",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.3"
+  }
+}
