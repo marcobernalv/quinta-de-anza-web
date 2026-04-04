@@ -37,7 +37,7 @@ Número de invitados: ${form.guests}
 
 Mensaje: ${form.message}`.trim();
 
-  const url = https://wa.me/526624246043?text=${encodeURIComponent(msg)};
+  const url = `https://wa.me/526624246043?text=${encodeURIComponent(msg)}`;
 
   window.open(url, "_blank");
 
