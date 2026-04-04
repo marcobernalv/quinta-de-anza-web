@@ -19,23 +19,30 @@ export default function Contact() {
   const handleChange = e => setForm(prev => ({ ...prev, [e.target.name]: e.target.value }))
 
   const handleWhatsApp = (e) => {
-    e.preventDefault()
-    const msg = `Hola, me interesa cotizar un evento en Quinta de Anza.
+  e.preventDefault();
 
-    *Nombre:* ${form.name}
+  const msg = `Hola, me interesa cotizar un evento en Quinta de Anza.
 
-    *Teléfono:* ${form.phone}
+  Nombre: ${form.name}
 
-    *Email:* ${form.email}
+  Teléfono: ${form.phone}
 
-    *Tipo de evento:* ${form.eventType}
+  Email: ${form.email}
 
-    *Fecha estimada:* ${form.eventDate}
+  Tipo de evento: ${form.eventType}
 
-    *Número de invitados:* ${form.guests}
+  Fecha estimada: ${form.eventDate}
 
-    *Mensaje:* ${form.message}`.trim();
-  }
+  Número de invitados: ${form.guests}
+
+  Mensaje: ${form.message}`.trim();
+
+  const url = https://wa.me/526624246043?text=${encodeURIComponent(msg)};
+
+  window.open(url, "_blank");
+
+  setSubmitted(true);
+};
 
   return (
     <section id="contacto" className="py-24 bg-white">
