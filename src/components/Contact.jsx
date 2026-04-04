@@ -20,7 +20,15 @@ export default function Contact() {
 
   const handleWhatsApp = (e) => {
     e.preventDefault()
-    const msg = `Hola, me interesa cotizar un evento en Quinta de Anza.\n\n*Nombre:* ${form.nombre}\n*Teléfono:* ${form.telefono}\n*Email:* ${form.email}\n*Servicio:* ${form.servicio}\n\n*Mensaje:* ${form.mensaje}`;
+    const msg = `Hola, me interesa cotizar un evento en Quinta de Anza.
+
+    Nombre: ${form.name}
+    Teléfono: ${form.phone}
+    Email: ${form.email}
+    Tipo de evento: ${form.eventType}
+    Fecha estimada: ${form.eventDate}
+    Número de invitados: ${form.guests}
+    Mensaje: ${form.message}`.trim();
     window.open(`https://wa.me/526624246043?text=${msg}`, '_blank')
     setSubmitted(true)
   }
