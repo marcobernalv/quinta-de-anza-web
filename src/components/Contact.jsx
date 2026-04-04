@@ -22,15 +22,19 @@ export default function Contact() {
     e.preventDefault()
     const msg = `Hola, me interesa cotizar un evento en Quinta de Anza.
 
-    Nombre: ${form.name}
-    Teléfono: ${form.phone}
-    Email: ${form.email}
-    Tipo de evento: ${form.eventType}
-    Fecha estimada: ${form.eventDate}
-    Número de invitados: ${form.guests}
-    Mensaje: ${form.message}`.trim();
-    window.open(`https://wa.me/526624246043?text=${msg}`, '_blank')
-    setSubmitted(true)
+    *Nombre:* ${form.name}
+
+    *Teléfono:* ${form.phone}
+
+    *Email:* ${form.email}
+
+    *Tipo de evento:* ${form.eventType}
+
+    *Fecha estimada:* ${form.eventDate}
+
+    *Número de invitados:* ${form.guests}
+
+    *Mensaje:* ${form.message}`.trim();
   }
 
   return (
